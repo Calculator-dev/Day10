@@ -16,5 +16,11 @@ function getUsername(email) {
     return username;
 }
 
-console.log( getUsername("user2@mail.com"));
+console.log(getUsername("user1@mail.com"));
+console.log(getUsername("user2@mail.com"));
+console.log(getUsername("user3@mail.com"));
+console.log(getUsername("user4@mail.com"));
+console.log(getUsername("user5@mail.com"));
+console.log(getUsername("user6@mail.com"));
+console.log(getUsername(""));
 module.exports = getUsername;
